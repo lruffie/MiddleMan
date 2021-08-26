@@ -66,6 +66,6 @@ def manage_file(name,list):
 
 def  main(token1, token2, network):
     list=get_rate(token1,token2,1000,network)
-    manage_file('C:/Users/Ruffie Luc/PERSO/dev/CrossChainArbitrageBot-master/get_data/data/data_'+token1["symb"]+'_'+token2["symb"]+'.csv',list)
+    manage_file('C:/Users/Ruffie Luc/PERSO/dev/MiddleMan/get_data/data/data_'+token1["symb"]+'_'+token2["symb"]+'.csv',list)
 
 # main(tokens, network)

@@ -27,8 +27,8 @@ const USER_ADDRESS = process.env.USER_ADDRESS;
 const NULL_ADDRESS = '0x0000000000000000000000000000000000000000';
 
 // CONSTANTES BOT
-const SLIPPAGE = 0.1;
-const OFFSET = 0;
+const SLIPPAGE = 0.1; // in %
+const OFFSET = 1;  // in %
 const REST_TIME = 20 * 1000; // seconds
 const amount = 1;
 

@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 plt.close("all")
 
-token1='USDT'
+token1='USDC'
 token2='DAI'
 
 

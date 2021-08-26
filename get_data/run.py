@@ -9,8 +9,6 @@ DAI=tokens.tokens["DAI"]
 USDT=tokens.tokens["USDT"]
 network={"name":"POLYGON", "id" :137}
 
-
-
 while True :
     time.sleep(2)
     get_data_template.main(USDC,DAI,network)
